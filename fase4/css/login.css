@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    background-image: url("../imagens/signup-login.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+h1, h2, form {
+    color: white;
+    text-align: center;
+}
+
+.form-container {
+    text-align: center;
+    position: relative;
+    margin: 30vh 35vw;
+    background: rgba(0, 0, 0, .8);
+    z-index: 1;
+    padding: 1% 1%;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.form-container button {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    z-index: 2;
+    background: rgba(0, 0, 0, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.form-group input:focus {
+    background: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+
+
+@media(max-width:768px) {
+
+    .form-container {
+        position: relative;
+        margin: 30vh 25vw;
+        background: rgba(0, 0, 0, .8);
+        z-index: 1;
+        padding: 1% 1%;
+        border-radius: 15px;
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+
+}
